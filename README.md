@@ -6,7 +6,7 @@ apt-get -y install ca-certificates
 yum -y install ca-certificates
 
 二、安装
-wget "https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+wget "https://raw.githubusercontent.com/loop963/bbrplusall/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
 1、先在[1 – 3]切换内核（第一次显示为bbr内核也要切换一遍），出现提示选no重启
 
